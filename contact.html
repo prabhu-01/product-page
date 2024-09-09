@@ -1,0 +1,43 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+          <div class="logo">🦖iServices</div>
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+          <div class="mobile-menu">
+            <button id="mobile-menu-toggle">☰</button>
+          </div>
+        </nav>
+      </header>
+
+  <section class="page-content" id="contact-us">
+      <h1>Contact Us</h1>
+      <p>If you have any questions, feel free to reach out to us!</p>
+      <form action="/submit" method="post" class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="cta">Submit</button>
+      </form>
+  </section>
+  <footer>
+    <p>&copy; 2024 MyProduct. All rights reserved.</p>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#terms">Terms of Service</a>
+  </footer>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

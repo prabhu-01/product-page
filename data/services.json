@@ -1,0 +1,38 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "name": "Web Development",
+        "description": "Build responsive and optimized websites.",
+        "features": [
+          "Responsive Design",
+          "SEO Friendly",
+          "Customizable UI/UX",
+          "Cross-browser compatibility"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Mobile App Development",
+        "description": "Create powerful and user-friendly mobile applications.",
+        "features": [
+          "iOS & Android Support",
+          "High Performance",
+          "User-Friendly Interface",
+          "Push Notifications"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Digital Marketing",
+        "description": "Boost your business with tailored marketing strategies.",
+        "features": [
+          "SEO Optimization",
+          "Social Media Campaigns",
+          "Email Marketing",
+          "Brand Awareness"
+        ]
+      }
+    ]
+  }
+  
